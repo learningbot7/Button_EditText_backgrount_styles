@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar_determinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="0"
+        android:visibility="gone"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"/>
+    <Button
+        android:id="@+id/determinate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Determinate"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:id="@+id/progressbar_indeterminate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/indeterminate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indeterminate"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
