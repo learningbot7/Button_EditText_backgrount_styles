@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:title=""
+    app:showAsAction="always"
+    android:icon="@drawable/more_vert">
+    <menu>
+        <item
+            android:id="@+id/mail"
+            android:title="Mail"
+            android:icon="@drawable/mail_icon"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/photo"
+            android:title="Photo"
+            android:icon="@drawable/photo_icon"
+            app:showAsAction="never"
+
+            />
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/share_icon"
+            app:showAsAction="never"
+
+            />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit_icon"
+            android:title="Exit"
+            app:showAsAction="never"
+            />
+
+
+    </menu>
+
+
+</item>
+
+
+
+</menu>
